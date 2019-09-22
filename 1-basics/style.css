@@ -2,8 +2,8 @@ body {
     font-family: Lato, sans-serif;
 }
 
-h1 #assignment-instructions {
-    color: #232323;
+h1#assignment-instructions {
+    color: blue;
 }
 
 li {
