@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lato, sans-serif;
+    margin: 0;
+}
+
+div {
+    padding: 1px 2px 3px 4px;
+    border: 1px dashed blue;
+    margin: 4px 3px 2px 1px;
+    width: calc(50% - (3px + 1px));
+    display: inline-block;
+}
+
+div:first-child {
+    height: 300px;
+    display: none;
+}
+
+div:last-child:hover {
+    border: 1px solid red;
+    cursor: pointer;
+}
